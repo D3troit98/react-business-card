@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    font-family: 'Inter',sans-serif;
+    height: 100vh;
+    background-color: #23252C;
+    
+}
+p{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #dcdcdc;
+}
+.app-container{
+    margin: auto;
+    width: 317px;
+    padding-top: 44px;
+  
+}
+.profile{
+    margin-bottom: -100;
+    padding: -100;
+}
+.profile-logo{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0;
+  margin: 0;
+    
+}
+
+.name{
+   
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+    margin-top: 0;
+    padding-top: 21px;
+    
+}
+
+.job{
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: 400px;
+    line-height: 15px;
+    text-align: center;
+}
+
+p, p>a{
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #F5F5F5;
+}
+
+.website{
+    text-align: center;
+    color: #F5F5F5;
+    line-height: 15px;
+    font-style: normal;
+}
+.details-container{
+    background: #1A1B21;
+    margin-top: 0;
+    width: 317px;
+   padding-bottom: 24px;
+    
+}
+.buttonContainer{
+    display: inline-flex ;
+}
+.email-button{
+    display: inline-flex;
+    cursor: pointer;
+    overflow: hidden;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+border-radius: 8px;
+background: #FFFFFF;
+border: 1px solid #D1D5DB;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+width: 115px;
+height: 34px;
+left: 283px;
+top: 468px;
+margin-left: 35px;
+
+}
+
+.email-button:hover{
+    background: #d3c3c3    ;
+}
+
+.email-button:active{
+    background: #b5bbcf;
+}
+.button-text,.material-symbols-outlined{
+   height: 16px;
+   font-weight: 500;
+   font-size: 14px;
+   color: #374151;
+   flex: none;
+order: 1;
+flex-grow: 0;
+   
+}
+
+
+.linkedin-text, .linkedin{
+color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 16px;
+
+}
+
+.linkedIn-button{
+    display: inline-flex;
+    cursor: pointer;
+    overflow: hidden;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+border-radius: 8px;
+background: #5093E2;
+border: 1px solid #5093E2;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+width: 115px;
+height: 34px;
+left: 283px;
+top: 468px;
+margin-left: 17px;
+
+}
+
+
+.headers{
+    font-weight: 700;
+    size: 16px;
+    line-height: 24px;
+    color: #F5F5F5;
+   
+
+}
+
+.footer-list{
+    height: 64px;
+    background: #161619;
+    border-radius:  0px 0px 10px 10px;
+    
+}
+.footer-logo, .footer-logo1,.footer-logo4{
+  
+    margin-top: 19px;
+    margin-bottom: 20px;
+    color: #918E9B;
+    margin-left: 24px;
+   
+}
+
+.footer-logo1{
+    margin-left: 73px;
+}
+
+.explain-more{
+   margin-left: 36px;
+   margin-bottom: 24px;
+   margin-right: 36px;
+   margin-top: 33px;
+  
+}
